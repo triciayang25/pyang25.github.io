@@ -12,12 +12,31 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff7d7;
     margin: 0;
     padding: 0;
     width: 100%;
     /* display: flex; */
 }
+
+/* body:before {
+    content: '';
+    display: block;
+    background-attachment: scroll;
+    height: var(--background-height);
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: scale(1);
+    width: 50vw;
+    z-index: 0;
+    background-image: linear-gradient(to top, rgba(234,252,210,0.2), rgba(234,252,210,0.2)), url('assets/images/bg.jpg?v=7ab511c7');
+    background-position: 0% 0%, center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-color: #FFFFFF;
+} */
 
 #wrapper {
     -webkit-overflow-scrolling: touch;
@@ -56,9 +75,10 @@ body {
     position: relative;
     text-align: var(--alignment);
     z-index: 1;
-    background-color: rgba(252,245,210,0.69);
+    background-color: #f0c9ff;
+    /* background-color: rgba(252,245,210,0.69); */
     border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
-    transition: opacity 1s ease-in-out 0s;
+    /* transition: opacity 1s ease-in-out 0s; */
 }
 
 /* #main > .inner means that the FIRST .inner class within id=main elements will have the formatting
@@ -198,18 +218,19 @@ ul {
     width: 300px;
 }
 
-.id-card2 {
+.centered-section{
     display: flex;
-    justify-content: center;  /* Horizontally center */
-    align-items: center;      /* Vertically center */
-    /* height: 100vh; */
+    justify-content: center;  
+    align-items: center;   
+}
 
+.id-card2 {
     background-color: white;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    width: 300px;
+    width: 800px;
 }
 
 .id-card img {
