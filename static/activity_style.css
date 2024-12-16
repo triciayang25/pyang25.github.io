@@ -211,24 +211,44 @@ ul {
 
 .id-card {
     background-color: white;
-    border: 2px solid #ddd;
+    border: 3px solid #f0c9ff;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.id-card-left{
+    background-color: white;
+    border: 3px solid #f0c9ff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.id-card-left #text{
+    text-align: left;
+    /* width: 500px; */
+    /* padding: 20px; */
+    margin-left: 25px;
 }
 
 .centered-section{
     display: flex;
-    justify-content: center;  
-    align-items: center;   
+    justify-content: center;  /* vertical */
+    align-items: top;   /* horizontal */
 }
 
 .id-card2 {
     background-color: white;
-    border: 2px solid #ddd;
+    border: 3px solid #f0c9ff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     width: 800px;
 }
@@ -258,6 +278,17 @@ ul {
     border-radius: 5px;
 }
 
+.id-card-left a {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
 .id-card a:hover {
+    background-color: #2980b9;
+}
+
+.id-card-left a:hover {
     background-color: #2980b9;
 }
