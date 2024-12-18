@@ -72,22 +72,25 @@
         </div>
 
         <div class="id-card">
-          <!-- <img src="../images/gru.jpeg" alt="Profile Picture"> -->
-          <h3>Previous Projects</h3>
-          <div id="text">
-            <h4>STEM Camp</h4>
-            <p>&emsp;&emsp;Rollercoaster Physics Explanation (Animated!)</p>
-          </div>
-          <!-- Button to open the modal -->
-            <button id="openModalBtn">Watch Video</button>
+            <!-- <img src="../images/gru.jpeg" alt="Profile Picture"> -->
+            <h3>Previous Projects</h3>
+            <div class="custom-container" id="text">
+                <h4>STEM Camp</h4>
+                <p>Rollercoaster Physics Explanation (Animated!)</p>
+                <!-- Button to open the modal -->
+                <button id="openModalBtn">Watch Video</button>
+                <!-- <a id="openModalBtn" href="#" onclick="toggleVideo()">Watch Video</a> -->
+            </div>
 
             <!-- Modal structure -->
             <div id="videoModal" class="modal">
                 <div class="modal-content">
                     <span class="close-btn">&times;</span>
+                    <!-- <a href="#" onclick="toggleVideo()">Close</a> -->
                     <h2>Watch This Awesome Video!</h2>
                     <!-- YouTube embedded video iframe -->
-                    <iframe id="videoIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe id="videoIframe" src="https://triciayang25.github.io/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <iframe id="videoIframe" src="" ></iframe>
                 </div>
             </div>
             
