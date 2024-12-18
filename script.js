@@ -6,7 +6,8 @@ const videoIframe = document.getElementById('videoIframe');
 const wrapper = document.getElementById('wrapper');
 
 // YouTube video URL
-const videoURL = 'https://youtu.be/LpY01emp4l0';  
+const videoURL = 'https://www.youtube.com/embed/LpY01emp4l0';  
+
 
 // Open the modal and set the video URL
 openModalBtn.addEventListener('click', function() {
@@ -29,3 +30,15 @@ window.addEventListener('click', function(event) {
         videoIframe.src = '';  // Stop the video
     }
 });
+
+
+// const container = document.querySelector(".custom-container");
+// const videoModal = document.querySelector("#videoModal");
+
+// function toggleClass(){
+//     // var container = document.querySelector(".custom-container");
+//     container.classList.toggle("active");
+
+//     // var videoModal = document.querySelector("#videoModal");
+//     videoModal.classList.toggle("active");   
+// }
