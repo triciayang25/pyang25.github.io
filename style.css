@@ -168,7 +168,7 @@ ul {
 
 /* Basic styles for the modal */
 .modal {
-    display: none; /* Hidden by default */
+    display: none; /*Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 10; /* Sit on top */
     left: 0;
@@ -190,6 +190,8 @@ ul {
     border-radius: 10px;
     max-width: 100%;
     max-height: 100%;
+    width: 45%;
+    height: 60%;
     position: relative;
     text-align: center;
 }
@@ -335,4 +337,19 @@ ul {
 
 #videoModal {
     position: fixed;
+    /* you can add a blur if you create a popup background */
+    /* filter: blur(20px); */
+}
+
+#videoIframe{
+    width: 90%;
+    height: 70%;
+}
+
+#openModalBtn{
+    background-color: #3498db;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;   
+    /* border-color: white; */
 }
